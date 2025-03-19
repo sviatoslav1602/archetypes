@@ -10,6 +10,9 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" />
     <title>Document</title>
   </head>
@@ -19,12 +22,12 @@
         <img src="" alt="" class="img" />
         <nav>
           <ul>
-            <li><a href="">Про проєкт</a></li>
-            <li><a href="">Мої улюблені фільми</a></li>
-            <li><a href="">Герої</a></li>
-            <li><a href="">Мій героїчний шлях</a></li>
-            <li><a href="">Опитування</a></li>
-            <li><a href="">Контакти</a></li>
+            <li><a href="#about-project">Про проєкт</a></li>
+            <li><a href="#movies">Мої улюблені фільми</a></li>
+            <li><a href="#heroes">Герої</a></li>
+            <li><a href="#heroic-path">Мій героїчний шлях</a></li>
+            <li><a href="#poll">Опитування</a></li>
+            <li><a href="#contacts">Контакти</a></li>
           </ul>
         </nav>
       </header>
@@ -36,7 +39,7 @@
             <button>Розпочати аналіз фільму</button>
           </div>
         </section>
-        <section class="meta">
+        <section id="about-project" class="meta">
           <h2 class="meta-h2">Мета проєкту</h2>
           <div class="content">
             <div class="left-p">
@@ -57,7 +60,7 @@
             </div>
           </div>
         </section>
-        <section class="info">
+        <section id="movies" class="info">
           <div class="left">
             <img src="img/Frame 10.png" alt="" class="img-info" />
             <p class="genre">Екшн/Комедія</p>
@@ -77,7 +80,7 @@
             </p>
           </div>
         </section>
-        <section class="movie-info">
+        <section id="heroes" class="movie-info">
           <div class="div-movie">
             <img src="img/Frame 14.png" alt="" class="img-movie" />
             <p class="movie-info-p">
@@ -119,7 +122,7 @@
             </p>
           </div>
         </section>
-        <section class="card">
+        <section id="heroic-path" class="card">
           <div class="card-badboys">
             <img src="img/Frame 16.png" alt="" class="card-img" />
             <p class="card-p">
@@ -148,7 +151,7 @@
             </p>
           </div>
         </section>
-        <section class="oput">
+        <section id="poll" class="oput">
           <h2 class="h2-oput">Соціальне опитування</h2>
 
           <p class="p-oput"><strong>1. Який жанр вам подобається?</strong></p>
@@ -184,10 +187,10 @@
           <h2 class="results">Вплив Фільмів на Суспільство</h2>
          <h3 class="results-h3">Аналіз Соціального Опитування</h3>
          <div class="survey">
-          <img src="" alt="" class="survey-img">
+          <img src="img/foto.jpg" alt="" class="survey-img">
           <div class="conclusion">
             <h4 class="conclusion-h4">Висновки</h4>
-            <p class="survey-p"></p>
+            <p class="survey-p">При соц. опитуванні більшість людей не бачить того що фільми впливають на формування особистості наприкдал нове покоління яке не має бажання вчитися або вивчати щось нове і вивести з нового різні ціності. І є ще інша частина людей яка вважає що фільми не впливають на формуванні особистості.</p>
             <button class="survey-button"><a href="">Протийти Соціального Опитування</a></button>
           </div>
          </div>
@@ -207,22 +210,24 @@
              <div><span style="background: #dc3545;"></span> Варіант D - 10%</div>
          </div>
         </section>
+        <section class="video">
+          <video src="img/IMG_7771.MOV" controls autoplay loop muted></video>
+        </section>
         <section class="About-me">
           <h2 class="About-me-h2">Інформація про мене</h2>
           <h2 class="ya">Бриндзей Святолсав</h2>
           <p class="action">🎬 Екшн</p>
           <p class="comedy">😂 Комедія</p>
           <p class="My favorite actor">
-            Улюблений герой: Том Голланд - герой  кіновсесвіту Marvel
-          </p>
+            Улюблений герой: Том Голланд - герой  кіновсесвіту Marvel</p>
         </section>
-        <footer class="footer">
+        <footer id="contacts" class="footer">
           <div class="footer-content">
             <p>© 2025 My Website</p>
             <div class="social-icons">
-              <a href="#">Facebook</a>
-              <a href="#">Twitter</a>
-              <a href="#">Instagram</a>
+              <a href="page_two.html">Facebook</a>
+              <a href="page_two.html">Twitter</a>
+              <a href="page_two.html">Instagram</a>
             </div>
           </div>
         </footer>
